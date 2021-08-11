@@ -19,12 +19,12 @@
             <div class="mb-3 row"> 
                 <%= f.label :password, class: "col-2 col-form-label text-light" %><br/>
                 <div class="col-10">
-                    <%= f.text_field :password, class: "form-control shadow rounded", placeholder: "Choose a password" %>
+                    <%= f.password_field :password, class: "form-control shadow rounded", placeholder: "Choose a password" %>
                 </div>
 
             </div>
             <div class="mb-3 d-flex justify-content-center"> 
-                <%= f.submit class: "btn btn-outline-light lg"%>
+                <%= f.submit "Sign up", class: "btn btn-outline-light lg"%>
             </div>
             <% end%>
         </div>
