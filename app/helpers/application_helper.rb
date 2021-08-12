@@ -7,4 +7,7 @@ module ApplicationHelper
         gravtar_url = "https://www.gravatar.com/avatar/#{hash}?s=#{size}"
         image_tag(gravtar_url, alt: user.username, class: "rounded shadow mx-auto d-block")
     end
+
+    
+    
 end
